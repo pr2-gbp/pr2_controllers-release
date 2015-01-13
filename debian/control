@@ -1,0 +1,12 @@
+Source: ros-indigo-robot-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, ros-indigo-actionlib, ros-indigo-angles, ros-indigo-catkin, ros-indigo-control-msgs, ros-indigo-control-toolbox, ros-indigo-diagnostic-msgs, ros-indigo-eigen-conversions, ros-indigo-filters, ros-indigo-geometry-msgs, ros-indigo-kdl-parser, ros-indigo-message-filters, ros-indigo-pluginlib, ros-indigo-pr2-controller-interface, ros-indigo-pr2-controller-manager, ros-indigo-pr2-controllers-msgs, ros-indigo-pr2-mechanism-model, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/robot_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-robot-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, ros-indigo-actionlib, ros-indigo-angles, ros-indigo-control-msgs, ros-indigo-control-toolbox, ros-indigo-diagnostic-msgs, ros-indigo-eigen-conversions, ros-indigo-filters, ros-indigo-geometry-msgs, ros-indigo-kdl-parser, ros-indigo-message-filters, ros-indigo-pluginlib, ros-indigo-pr2-controller-interface, ros-indigo-pr2-controller-manager, ros-indigo-pr2-controllers-msgs, ros-indigo-pr2-mechanism-model, ros-indigo-realtime-tools, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-trajectory-msgs
+Description: Generic Mechanism Controller Library
