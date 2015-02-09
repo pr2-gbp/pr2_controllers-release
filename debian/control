@@ -1,0 +1,12 @@
+Source: ros-indigo-joint-trajectory-action
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action
+Standards-Version: 3.9.2
+
+Package: ros-indigo-joint-trajectory-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp, ros-indigo-trajectory-msgs
+Description: The joint_trajectory_action is a node that exposes an action interface to a joint trajectory controller.
