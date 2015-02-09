@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-head-action
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-kdl-parser, ros-indigo-message-filters, ros-indigo-orocos-kdl, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_head_action
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-head-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-geometry-msgs, ros-indigo-kdl-parser, ros-indigo-message-filters, ros-indigo-orocos-kdl, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-trajectory-msgs
+Description: The PR2 head action is a node that provides an action interface for pointing the head of the PR2. It passes trajectory goals to the controller, and reports success when they have finished executing.
