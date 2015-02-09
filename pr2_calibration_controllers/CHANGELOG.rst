@@ -2,6 +2,11 @@
 Changelog for package pr2_calibration_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.13 (2015-02-09)
+--------------------
+* Updated maintainership
+* Contributors: dash
+
 1.10.12 (2015-01-13)
 --------------------
 
