@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-controllers-msgs
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_controllers_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-controllers-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib-msgs, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-trajectory-msgs
+Description: Messages, services, and actions used in the pr2_controllers stack.
