@@ -1,0 +1,12 @@
+Source: ros-indigo-single-joint-position-action
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-catkin, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/single_joint_position_action
+Standards-Version: 3.9.2
+
+Package: ros-indigo-single-joint-position-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-pr2-controllers-msgs, ros-indigo-roscpp
+Description: The single joint position action is a node that provides an action interface for commanding a trajectory to move a joint to a particular position. The action reports success when the joint reaches the desired position.
