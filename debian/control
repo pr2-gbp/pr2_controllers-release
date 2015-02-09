@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-gripper-action
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-pr2-controllers-msgs, ros-indigo-pr2-mechanism-controllers, ros-indigo-pr2-mechanism-model, ros-indigo-robot-mechanism-controllers, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/pr2_gripper_action
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-gripper-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-pr2-controllers-msgs, ros-indigo-pr2-mechanism-controllers, ros-indigo-pr2-mechanism-model, ros-indigo-robot-mechanism-controllers, ros-indigo-roscpp
+Description: The pr2_gripper_action provides an action interface for using the gripper. Users can specify what position to move to (while limiting the force) and the action will report success when the position is reached or failure when the gripper cannot move any longer.
