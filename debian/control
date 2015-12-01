@@ -1,0 +1,12 @@
+Source: ros-jade-pr2-controllers-msgs
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-actionlib-msgs, ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-message-generation, ros-jade-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_controllers_msgs
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-controllers-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib-msgs, ros-jade-geometry-msgs, ros-jade-message-runtime, ros-jade-trajectory-msgs
+Description: Messages, services, and actions used in the pr2_controllers stack.
