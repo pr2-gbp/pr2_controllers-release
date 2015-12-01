@@ -1,0 +1,12 @@
+Source: ros-jade-pr2-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-angles, ros-jade-catkin, ros-jade-control-toolbox, ros-jade-diagnostic-msgs, ros-jade-diagnostic-updater, ros-jade-filters, ros-jade-geometry-msgs, ros-jade-message-generation, ros-jade-nav-msgs, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-controllers-msgs, ros-jade-pr2-mechanism-model, ros-jade-pr2-mechanism-msgs, ros-jade-pr2-msgs, ros-jade-realtime-tools, ros-jade-robot-mechanism-controllers, ros-jade-rosconsole, ros-jade-roscpp, ros-jade-rospy, ros-jade-std-msgs, ros-jade-tf, ros-jade-visualization-msgs
+Homepage: http://ros.org/pr2_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-angles, ros-jade-control-toolbox, ros-jade-diagnostic-msgs, ros-jade-diagnostic-updater, ros-jade-filters, ros-jade-geometry-msgs, ros-jade-message-runtime, ros-jade-nav-msgs, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-controllers-msgs, ros-jade-pr2-mechanism-model, ros-jade-pr2-mechanism-msgs, ros-jade-pr2-msgs, ros-jade-realtime-tools, ros-jade-robot-mechanism-controllers, ros-jade-rosconsole, ros-jade-roscpp, ros-jade-rospy, ros-jade-std-msgs, ros-jade-tf, ros-jade-visualization-msgs
+Description: The pr2_mechanism_controllers package contains realtime controllers that are meant for specific mechanisms of the PR2.
