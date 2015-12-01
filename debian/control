@@ -1,0 +1,12 @@
+Source: ros-jade-robot-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, ros-jade-actionlib, ros-jade-angles, ros-jade-catkin, ros-jade-control-msgs, ros-jade-control-toolbox, ros-jade-diagnostic-msgs, ros-jade-eigen-conversions, ros-jade-filters, ros-jade-geometry-msgs, ros-jade-kdl-parser, ros-jade-message-filters, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-controller-manager, ros-jade-pr2-controllers-msgs, ros-jade-pr2-mechanism-model, ros-jade-realtime-tools, ros-jade-roscpp, ros-jade-std-msgs, ros-jade-tf, ros-jade-tf-conversions, ros-jade-trajectory-msgs
+Homepage: http://ros.org/wiki/robot_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-jade-robot-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, ros-jade-actionlib, ros-jade-angles, ros-jade-control-msgs, ros-jade-control-toolbox, ros-jade-diagnostic-msgs, ros-jade-eigen-conversions, ros-jade-filters, ros-jade-geometry-msgs, ros-jade-kdl-parser, ros-jade-message-filters, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-controller-manager, ros-jade-pr2-controllers-msgs, ros-jade-pr2-mechanism-model, ros-jade-realtime-tools, ros-jade-roscpp, ros-jade-rospy, ros-jade-std-msgs, ros-jade-tf, ros-jade-tf-conversions, ros-jade-trajectory-msgs
+Description: Generic Mechanism Controller Library
