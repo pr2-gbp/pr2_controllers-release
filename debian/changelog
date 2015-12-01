@@ -1,0 +1,32 @@
+ros-jade-pr2-controllers (1.10.13-0trusty) trusty; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Mon, 09 Feb 2015 05:00:00 -0000
+
+ros-jade-pr2-controllers (1.10.12-0trusty) trusty; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 13 Jan 2015 05:00:00 -0000
+
+ros-jade-pr2-controllers (1.10.10-0trusty) trusty; urgency=high
+
+
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 16 Dec 2014 05:00:00 -0000
+
+ros-jade-pr2-controllers (1.10.9-0trusty) trusty; urgency=high
+
+  * Changelogs
+  * Added changelogs
+  * Added indigo devel branch
+  * Changelogs; maintainership
+  * Contributors: TheDash
+  * Added indigo devel branch
+  * Changelogs; maintainership
+  * Contributors: TheDash
+
+ -- Devon Ash <dash@clearpathrobotics.com>  Tue, 16 Dec 2014 05:00:00 -0000
+
+
