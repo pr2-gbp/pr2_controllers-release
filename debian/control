@@ -1,0 +1,12 @@
+Source: ros-jade-pr2-calibration-controllers
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-mechanism-controllers, ros-jade-pr2-mechanism-model, ros-jade-realtime-tools, ros-jade-robot-mechanism-controllers, ros-jade-roscpp, ros-jade-std-msgs
+Homepage: http://ros.org/wiki/pr2_calibration_controllers
+Standards-Version: 3.9.2
+
+Package: ros-jade-pr2-calibration-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-pr2-mechanism-controllers, ros-jade-pr2-mechanism-model, ros-jade-realtime-tools, ros-jade-robot-mechanism-controllers, ros-jade-roscpp, ros-jade-std-msgs
+Description: The pr2_calibration_controllers package contains the controllers used to bring all the joints in the PR2 to a calibrated state.
