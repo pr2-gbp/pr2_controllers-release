@@ -1,0 +1,12 @@
+Source: ros-jade-ethercat-trigger-controllers
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-jade-catkin, ros-jade-diagnostic-msgs, ros-jade-message-generation, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-realtime-tools, ros-jade-roscpp, ros-jade-std-msgs
+Homepage: http://www.ros.org/wiki/ethercat_trigger_controllers
+Standards-Version: 3.9.2
+
+Package: ros-jade-ethercat-trigger-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-jade-diagnostic-msgs, ros-jade-message-runtime, ros-jade-pluginlib, ros-jade-pr2-controller-interface, ros-jade-realtime-tools, ros-jade-roscpp, ros-jade-rospy, ros-jade-std-msgs
+Description: Controllers to operate the digital output of the motor controller boards and the projector board. This package has not been reviewed and should be considered unstable.
