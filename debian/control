@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/pr2_controllers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-control-toolbox, ros-kinetic-ethercat-trigger-controllers, ros-kinetic-joint-trajectory-action, ros-kinetic-pr2-calibration-controllers, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-gripper-action, ros-kinetic-pr2-head-action, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-robot-mechanism-controllers, ros-kinetic-single-joint-position-action
+Description: Contains the controllers that run in realtime on the PR2 and supporting packages.
