@@ -1,0 +1,13 @@
+Source: ros-kinetic-ethercat-trigger-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-kinetic-catkin, ros-kinetic-diagnostic-msgs, ros-kinetic-message-generation, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Homepage: http://www.ros.org/wiki/ethercat_trigger_controllers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ethercat-trigger-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-kinetic-diagnostic-msgs, ros-kinetic-message-runtime, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-realtime-tools, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: Controllers to operate the digital output of the motor controller boards and the projector board.
+ This package has not been reviewed and should be considered unstable.
