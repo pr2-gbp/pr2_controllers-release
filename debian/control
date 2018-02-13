@@ -1,0 +1,13 @@
+Source: ros-kinetic-single-joint-position-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp
+Homepage: http://ros.org/wiki/single_joint_position_action
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-single-joint-position-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp
+Description: The single joint position action is a node that provides an action interface for commanding a trajectory to move a joint to a particular position.
+ The action reports success when the joint reaches the desired position.
