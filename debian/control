@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-angles, ros-kinetic-catkin, ros-kinetic-control-toolbox, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-filters, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-pr2-msgs, ros-kinetic-realtime-tools, ros-kinetic-robot-mechanism-controllers, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: http://ros.org/pr2_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-angles, ros-kinetic-control-toolbox, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-filters, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-nav-msgs, ros-kinetic-pluginlib, ros-kinetic-pr2-controller-interface, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-mechanism-model, ros-kinetic-pr2-mechanism-msgs, ros-kinetic-pr2-msgs, ros-kinetic-realtime-tools, ros-kinetic-robot-mechanism-controllers, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: The pr2_mechanism_controllers package contains realtime controllers that are meant for specific mechanisms of the PR2.
