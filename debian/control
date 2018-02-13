@@ -1,0 +1,13 @@
+Source: ros-kinetic-pr2-gripper-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-pr2-mechanism-model, ros-kinetic-robot-mechanism-controllers, ros-kinetic-roscpp
+Homepage: http://ros.org/wiki/pr2_gripper_action
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-gripper-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-mechanism-controllers, ros-kinetic-pr2-mechanism-model, ros-kinetic-robot-mechanism-controllers, ros-kinetic-roscpp
+Description: The pr2_gripper_action provides an action interface for using the gripper.
+ Users can specify what position to move to (while limiting the force) and the action will report success when the position is reached or failure when the gripper cannot move any longer.
