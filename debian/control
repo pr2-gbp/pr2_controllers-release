@@ -1,0 +1,12 @@
+Source: ros-kinetic-joint-trajectory-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-joint-trajectory-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-pr2-controllers-msgs, ros-kinetic-roscpp, ros-kinetic-trajectory-msgs
+Description: The joint_trajectory_action is a node that exposes an action interface to a joint trajectory controller.
