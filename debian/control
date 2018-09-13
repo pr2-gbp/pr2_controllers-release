@@ -1,0 +1,12 @@
+Source: ros-lunar-pr2-calibration-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-pluginlib, ros-lunar-pr2-controller-interface, ros-lunar-pr2-mechanism-controllers, ros-lunar-pr2-mechanism-model, ros-lunar-realtime-tools, ros-lunar-robot-mechanism-controllers, ros-lunar-roscpp, ros-lunar-std-msgs
+Homepage: http://ros.org/wiki/pr2_calibration_controllers
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-calibration-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-pluginlib, ros-lunar-pr2-controller-interface, ros-lunar-pr2-mechanism-controllers, ros-lunar-pr2-mechanism-model, ros-lunar-realtime-tools, ros-lunar-robot-mechanism-controllers, ros-lunar-roscpp, ros-lunar-std-msgs
+Description: The pr2_calibration_controllers package contains the controllers used to bring all the joints in the PR2 to a calibrated state.
