@@ -1,3 +1,36 @@
+## pr2_controllers (lunar) - 1.10.15-0
+
+The packages in the `pr2_controllers` repository were released into the `lunar` distro by running `/usr/bin/bloom-release --edit -y pr2_controllers --rosdistro lunar --track lunar` on `Thu, 13 Sep 2018 04:10:11 -0000`
+
+These packages were released:
+- `ethercat_trigger_controllers`
+- `joint_trajectory_action`
+- `pr2_calibration_controllers`
+- `pr2_controllers`
+- `pr2_controllers_msgs`
+- `pr2_gripper_action`
+- `pr2_head_action`
+- `pr2_mechanism_controllers`
+- `robot_mechanism_controllers`
+- `single_joint_position_action`
+
+Version of package(s) in repository `pr2_controllers`:
+
+- upstream repository: https://github.com/pr2/pr2_controllers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.10.15-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## pr2_controllers (kinetic) - 1.10.14-0
 
 The packages in the `pr2_controllers` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release pr2_controllers --rosdistro kinetic --track kinetic` on `Tue, 13 Feb 2018 22:25:31 -0000`
