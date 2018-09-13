@@ -2,6 +2,9 @@
 Changelog for package robot_mechanism_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.15 (2018-09-13)
+--------------------
+
 1.10.14 (2018-02-13)
 --------------------
 * Merge pull request `#388 <https://github.com/PR2/pr2_controllers/issues/388>`_ from k-okada/add_missing_dep

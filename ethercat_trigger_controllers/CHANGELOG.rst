@@ -2,6 +2,9 @@
 Changelog for package ethercat_trigger_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.15 (2018-09-13)
+--------------------
+
 1.10.14 (2018-02-13)
 --------------------
 * Merge pull request `#387 <https://github.com/PR2/pr2_controllers/issues/387>`_ from k-okada/maintain
