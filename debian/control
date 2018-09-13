@@ -1,0 +1,13 @@
+Source: ros-lunar-pr2-head-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-catkin, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-message-filters, ros-lunar-orocos-kdl, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-sensor-msgs, ros-lunar-tf, ros-lunar-tf-conversions, ros-lunar-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_head_action
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-head-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-message-filters, ros-lunar-orocos-kdl, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-sensor-msgs, ros-lunar-tf, ros-lunar-tf-conversions, ros-lunar-trajectory-msgs
+Description: The PR2 head action is a node that provides an action interface for pointing the head of the PR2.
+ It passes trajectory goals to the controller, and reports success when they have finished executing.
