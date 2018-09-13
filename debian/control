@@ -1,0 +1,12 @@
+Source: ros-lunar-robot-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-lunar-actionlib, ros-lunar-angles, ros-lunar-catkin, ros-lunar-control-msgs, ros-lunar-control-toolbox, ros-lunar-diagnostic-msgs, ros-lunar-eigen-conversions, ros-lunar-filters, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-message-filters, ros-lunar-message-generation, ros-lunar-pluginlib, ros-lunar-pr2-controller-interface, ros-lunar-pr2-controller-manager, ros-lunar-pr2-controllers-msgs, ros-lunar-pr2-mechanism-model, ros-lunar-realtime-tools, ros-lunar-roscpp, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-tf-conversions, ros-lunar-trajectory-msgs
+Homepage: http://ros.org/wiki/robot_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-lunar-robot-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-lunar-actionlib, ros-lunar-angles, ros-lunar-control-msgs, ros-lunar-control-toolbox, ros-lunar-diagnostic-msgs, ros-lunar-eigen-conversions, ros-lunar-filters, ros-lunar-geometry-msgs, ros-lunar-kdl-parser, ros-lunar-message-filters, ros-lunar-message-runtime, ros-lunar-pluginlib, ros-lunar-pr2-controller-interface, ros-lunar-pr2-controller-manager, ros-lunar-pr2-controllers-msgs, ros-lunar-pr2-mechanism-model, ros-lunar-realtime-tools, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-tf-conversions, ros-lunar-trajectory-msgs
+Description: Generic Mechanism Controller Library
