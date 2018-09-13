@@ -1,0 +1,13 @@
+Source: ros-lunar-pr2-gripper-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-catkin, ros-lunar-pr2-controllers-msgs, ros-lunar-pr2-mechanism-controllers, ros-lunar-pr2-mechanism-model, ros-lunar-robot-mechanism-controllers, ros-lunar-roscpp
+Homepage: http://ros.org/wiki/pr2_gripper_action
+Standards-Version: 3.9.2
+
+Package: ros-lunar-pr2-gripper-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-actionlib-msgs, ros-lunar-pr2-controllers-msgs, ros-lunar-pr2-mechanism-controllers, ros-lunar-pr2-mechanism-model, ros-lunar-robot-mechanism-controllers, ros-lunar-roscpp
+Description: The pr2_gripper_action provides an action interface for using the gripper.
+ Users can specify what position to move to (while limiting the force) and the action will report success when the position is reached or failure when the gripper cannot move any longer.
