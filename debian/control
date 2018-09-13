@@ -1,0 +1,12 @@
+Source: ros-lunar-joint-trajectory-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-actionlib, ros-lunar-catkin, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action
+Standards-Version: 3.9.2
+
+Package: ros-lunar-joint-trajectory-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-actionlib, ros-lunar-pr2-controllers-msgs, ros-lunar-roscpp, ros-lunar-trajectory-msgs
+Description: The joint_trajectory_action is a node that exposes an action interface to a joint trajectory controller.
