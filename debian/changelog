@@ -1,0 +1,59 @@
+ros-melodic-pr2-mechanism-controllers (1.10.15-0stretch) stretch; urgency=high
+
+  * Merge pull request #390 <https://github.com/pr2/pr2_controllers/issues/390> from k-okada/add_travis
+    update travis.yml
+  * add fix for urdfmodel 1.0.0(melodic),
+    since 12.04 have urdfmodel < 1.0.0, it will fail to compile on indigo, so we need to chaeck URDFDOM_version
+  * Contributors: Kei Okada
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Thu, 13 Sep 2018 00:00:00 -0000
+
+ros-melodic-pr2-mechanism-controllers (1.10.14-0stretch) stretch; urgency=high
+
+  * Merge pull request #389 <https://github.com/PR2/pr2_controllers/issues/389> from k-okada/kinetic-devel
+    - use Eigen3 instead of Eigen
+  * use Eigen3 instead of Eigen
+  * Merge pull request #388 <https://github.com/PR2/pr2_controllers/issues/388> from k-okada/add_missing_dep
+    add missing dependency
+  * Merge pull request #387 <https://github.com/PR2/pr2_controllers/issues/387> from k-okada/maintain
+    change maintainer to ROS orphaned package maintainer
+  * Merge pull request #369 <https://github.com/PR2/pr2_controllers/issues/369> from muratsevim/hydro-devel
+    std namespace prefix is added to isnan calls
+  * mechanism_controllers: add missing pr2_msgs dependency
+  * change maintainer to ROS orphaned package maintainer
+  * std namespace prefix is added to isnan calls
+  * Contributors: Kei Okada, Mehmet Murat Sevim, Michael Görner
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Feb 2018 00:00:00 -0000
+
+ros-melodic-pr2-mechanism-controllers (1.10.13-0stretch) stretch; urgency=high
+
+  * Updated maintainership
+  * Contributors: dash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Mon, 09 Feb 2015 00:00:00 -0000
+
+ros-melodic-pr2-mechanism-controllers (1.10.12-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-melodic-pr2-mechanism-controllers (1.10.10-0stretch) stretch; urgency=high
+
+
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 16 Dec 2014 00:00:00 -0000
+
+ros-melodic-pr2-mechanism-controllers (1.10.9-0stretch) stretch; urgency=high
+
+  * Changelogs
+  * Added changelogs
+  * Changelogs; maintainership
+  * Contributors: TheDash
+  * Changelogs; maintainership
+  * Contributors: TheDash
+
+ -- ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>  Tue, 16 Dec 2014 00:00:00 -0000
+
+
