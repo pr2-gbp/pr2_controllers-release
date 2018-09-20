@@ -1,0 +1,13 @@
+Source: ros-melodic-pr2-gripper-action
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-catkin, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-mechanism-controllers, ros-melodic-pr2-mechanism-model, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp
+Homepage: http://ros.org/wiki/pr2_gripper_action
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-gripper-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-actionlib, ros-melodic-actionlib-msgs, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-mechanism-controllers, ros-melodic-pr2-mechanism-model, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp
+Description: The pr2_gripper_action provides an action interface for using the gripper.
+ Users can specify what position to move to (while limiting the force) and the action will report success when the position is reached or failure when the gripper cannot move any longer.
