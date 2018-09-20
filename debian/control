@@ -1,0 +1,12 @@
+Source: ros-melodic-pr2-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/pr2_controllers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-control-toolbox, ros-melodic-ethercat-trigger-controllers, ros-melodic-joint-trajectory-action, ros-melodic-pr2-calibration-controllers, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-gripper-action, ros-melodic-pr2-head-action, ros-melodic-pr2-mechanism-controllers, ros-melodic-robot-mechanism-controllers, ros-melodic-single-joint-position-action
+Description: Contains the controllers that run in realtime on the PR2 and supporting packages.
