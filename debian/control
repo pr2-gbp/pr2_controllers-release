@@ -1,0 +1,12 @@
+Source: ros-melodic-robot-mechanism-controllers
+Section: misc
+Priority: extra
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-melodic-actionlib, ros-melodic-angles, ros-melodic-catkin, ros-melodic-control-msgs, ros-melodic-control-toolbox, ros-melodic-diagnostic-msgs, ros-melodic-eigen-conversions, ros-melodic-filters, ros-melodic-geometry-msgs, ros-melodic-kdl-parser, ros-melodic-message-filters, ros-melodic-message-generation, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-controller-manager, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-trajectory-msgs
+Homepage: http://ros.org/wiki/robot_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-robot-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-melodic-actionlib, ros-melodic-angles, ros-melodic-control-msgs, ros-melodic-control-toolbox, ros-melodic-diagnostic-msgs, ros-melodic-eigen-conversions, ros-melodic-filters, ros-melodic-geometry-msgs, ros-melodic-kdl-parser, ros-melodic-message-filters, ros-melodic-message-runtime, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-controller-manager, ros-melodic-pr2-controllers-msgs, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-tf-conversions, ros-melodic-trajectory-msgs
+Description: Generic Mechanism Controller Library
