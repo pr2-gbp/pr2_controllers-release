@@ -2,6 +2,9 @@
 Changelog for package pr2_calibration_controllers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.17 (2019-08-08)
+--------------------
+
 1.10.16 (2019-07-26)
 --------------------
 * Make sure to include the correct boost libraries.
