@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-controllers-msgs
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_controllers_msgs
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-controllers-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-trajectory-msgs
+Description: Messages, services, and actions used in the pr2_controllers stack.
