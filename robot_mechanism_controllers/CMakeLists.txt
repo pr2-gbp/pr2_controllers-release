@@ -12,7 +12,7 @@ add_message_files(
    JTCartesianControllerState.msg
 )
 
-find_package(Boost REQUIRED COMPONENTS signals)
+find_package(Boost REQUIRED)
 include_directories(include ${Boost_INCLUDE_DIRS} ${catkin_INCLUDE_DIRS})
 
 generate_messages(DEPENDENCIES geometry_msgs std_msgs)
@@ -57,5 +57,5 @@ install(DIRECTORY include/${PROJECT_NAME}/
 install(FILES controller_plugins.xml
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
-install(FILES scripts/effort.py posture.py
-   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(PROGRAMS scripts/effort.py posture.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
