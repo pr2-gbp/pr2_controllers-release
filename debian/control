@@ -1,0 +1,12 @@
+Source: ros-noetic-robot-mechanism-controllers
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-noetic-actionlib, ros-noetic-angles, ros-noetic-catkin, ros-noetic-control-msgs, ros-noetic-control-toolbox, ros-noetic-diagnostic-msgs, ros-noetic-eigen-conversions, ros-noetic-filters, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-message-filters, ros-noetic-message-generation, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-controller-manager, ros-noetic-pr2-controllers-msgs, ros-noetic-pr2-mechanism-model, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-trajectory-msgs
+Homepage: http://ros.org/wiki/robot_mechanism_controllers
+Standards-Version: 3.9.2
+
+Package: ros-noetic-robot-mechanism-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-noetic-actionlib, ros-noetic-angles, ros-noetic-control-msgs, ros-noetic-control-toolbox, ros-noetic-diagnostic-msgs, ros-noetic-eigen-conversions, ros-noetic-filters, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-message-filters, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-controller-manager, ros-noetic-pr2-controllers-msgs, ros-noetic-pr2-mechanism-model, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-trajectory-msgs
+Description: Generic Mechanism Controller Library
