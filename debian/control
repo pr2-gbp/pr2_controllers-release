@@ -1,0 +1,13 @@
+Source: ros-noetic-ethercat-trigger-controllers
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), libltdl-dev, libtool, libtool-bin, ros-noetic-catkin, ros-noetic-diagnostic-msgs, ros-noetic-message-generation, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: http://www.ros.org/wiki/ethercat_trigger_controllers
+Standards-Version: 3.9.2
+
+Package: ros-noetic-ethercat-trigger-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libltdl-dev, libtool, libtool-bin, ros-noetic-diagnostic-msgs, ros-noetic-message-runtime, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-realtime-tools, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-std-msgs
+Description: Controllers to operate the digital output of the motor controller boards and the projector board.
+ This package has not been reviewed and should be considered unstable.
