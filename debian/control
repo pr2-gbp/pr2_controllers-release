@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-calibration-controllers
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-mechanism-controllers, ros-noetic-pr2-mechanism-model, ros-noetic-realtime-tools, ros-noetic-robot-mechanism-controllers, ros-noetic-roscpp, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/pr2_calibration_controllers
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-calibration-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-pluginlib, ros-noetic-pr2-controller-interface, ros-noetic-pr2-mechanism-controllers, ros-noetic-pr2-mechanism-model, ros-noetic-realtime-tools, ros-noetic-robot-mechanism-controllers, ros-noetic-roscpp, ros-noetic-std-msgs
+Description: The pr2_calibration_controllers package contains the controllers used to bring all the joints in the PR2 to a calibrated state.
