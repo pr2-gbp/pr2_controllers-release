@@ -1,0 +1,13 @@
+Source: ros-noetic-pr2-head-action
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), liborocos-kdl-dev, ros-noetic-actionlib, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-message-filters, ros-noetic-pr2-controllers-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-trajectory-msgs
+Homepage: http://ros.org/wiki/pr2_head_action
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-head-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liborocos-kdl1.4, ros-noetic-actionlib, ros-noetic-geometry-msgs, ros-noetic-kdl-parser, ros-noetic-message-filters, ros-noetic-pr2-controllers-msgs, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-tf, ros-noetic-tf-conversions, ros-noetic-trajectory-msgs
+Description: The PR2 head action is a node that provides an action interface for pointing the head of the PR2.
+ It passes trajectory goals to the controller, and reports success when they have finished executing.
